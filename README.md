@@ -34,7 +34,7 @@ Acknowledgments
 Special thanks to OpenWeatherMap for providing the weather API.
 Connect with Me
 
-Let's connect! Feel free to reach out on LinkedIn.
+Let's connect! Feel free to reach out on LinkedIn. -> https://www.linkedin.com/in/divyesh-parmar-67974026a/
 
 
 ![Screenshot (127)](https://github.com/Divyesh032040/Weather-App/assets/127118175/bbc3760a-3e01-4f61-a9c6-391d8d6606b9)
