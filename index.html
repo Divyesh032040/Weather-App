@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>My City Weather</title>
+</head>
+
+
+<body>
+    <video autoplay muted loop class="video">
+        <source src="pexels-yan-6615680 (1440p).mp4" type="video/mp4" />
+    </video>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name " spellcheck="false" >
+            
+            <button class="button"><img src="search.png" class="img" alt="search"></button>
+        </div>
+
+        <div class="error">
+            <p> Invalid City Name </p>
+        </div>
+        <div class="weather">
+            <img src="rain.png" alt="" class="weathericon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Rajkot</h2>
+
+            <div class="details">
+                <div class="col1">
+                    <img src="humidity.png" alt="" class="humidity-img">
+                    <div>
+                        <p class="humidity-text"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col2">
+                    <img src="wind.png" alt="" class="wind-img">
+                    <div>
+                        <p class="wind-text"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
